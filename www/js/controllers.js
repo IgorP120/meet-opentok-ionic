@@ -168,6 +168,7 @@ angular.module('starter.controllers', [])
         Accept: 'application/json'
       }
     }).then(function(result) {
+      alert(JSON.stringify(result));
       meetController.apiKey = result.data.apiKey;
       meetController.token = result.data.token;
       meetController.sessionId = result.data.sessionId;
