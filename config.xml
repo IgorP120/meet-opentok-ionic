@@ -40,6 +40,7 @@
     <splash src="resources/android/splash/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
   </platform>
   <platform name="ios">
-      <hook type="after_platform_add" src="hooks/iosrtc-swift-support.js" />
+    <hook type="after_platform_add" src="hooks/iosrtc-swift-support.js"/>
   </platform>
+  <allow-navigation href="http://192.168.1.240:8100"/>
 </widget>
